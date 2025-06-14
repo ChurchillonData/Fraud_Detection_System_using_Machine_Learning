@@ -1,4 +1,7 @@
 # 🛡️ Fraud Detection Using Machine Learning
+![Fraud Detection Image](https://images.unsplash.com/photo-1708423538640-c079fd23c2ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+
+
 
 ## 📌 Problem Statement
 
@@ -18,9 +21,9 @@ Below is a preview of the deployed app interface:
 ## 📊 Dataset
 
 - **Source:** [Kaggle - Fraud Detection Dataset](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset)
-resource=download&select=AIML+Dataset.csv)
+(resource=download&select=AIML+Dataset.csv)
 - **Description:**  
-  The dataset contains transactions made by European cardholders in September 2013. It includes 284,807 transactions, of which only 492 are fraud cases. Each transaction is described by 30 features:
+  The dataset contains transactions made by European cardholders in September 2024. It includes 284,807 transactions, of which only 492 are fraud cases. Each transaction is described by 30 features:
   - `Time` and `Amount`
   - 28 anonymized principal components (`V1` to `V28`)
   - `Class` (Target variable: 0 for non-fraud, 1 for fraud)
