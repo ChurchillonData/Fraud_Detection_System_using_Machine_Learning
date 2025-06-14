@@ -11,7 +11,8 @@ The objective of this project is to build a **machine learning model** capable o
 
 Below is a preview of the deployed app interface:
 
-![Fraud Detection UI]((https://github.com/ChurchillonData/Fraud_Detection_System_using_Machine_Learning/blob/main/Fraud_Detection_System_UI.png))
+![App Screenshot](https://github.com/yourusername/fraud-detection-streamlit/blob/main/images/streamlit_preview.png?raw=true)
+
 
 
 ## 📊 Dataset
