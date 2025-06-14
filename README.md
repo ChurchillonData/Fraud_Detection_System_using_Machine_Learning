@@ -37,25 +37,45 @@ Each transaction is described by 30 pieces of information (called features), suc
 ### 1. Data Preprocessing
 
 First, I loaded the dataset and examined it to understand what information it contained and if there were any missing or incorrect values. I also looked at how different features relate to each other, removing those that were too similar or unnecessary to improve model performance.
+- Loaded dataset using `pandas`
+- Checked for missing values
+- Explored correlation using heatmaps
+- Dropped redundant or highly correlated features
 
 ### 2. Feature Engineering
 
 Next, I prepared the data for the machine learning model by scaling important features like transaction amount, so the model treats all features fairly. I also separated the input data (features) from the output data (whether a transaction is fraud or not).
+- Scaled the `Amount` column using `StandardScaler`
+- Split data into features (X) and labels (y)
+- Applied `OneHotEncoding` using `ColumnTransformer` for any categorical fields
 
 ### 3. Handling Class Imbalance
 
 Since fraudulent transactions are very rare compared to normal ones, the dataset is imbalanced. To address this, I used a technique that balances the data by reducing the number of normal transactions so that the model doesn’t become biased towards only recognizing normal transactions.
+- Used **RandomUnderSampler** from the `imblearn` package to balance the classes
+- Ensured equal representation of fraud and non-fraud transactions for training
 
 ### 4. Model Building
 
 I trained a Logistic Regression model, a common and effective method for classification tasks. After training, I tested how well the model performs by measuring accuracy and other metrics that indicate how often it correctly predicts fraud and non-fraud cases. I saved this trained model so it can be used later in the app.
-
+- Trained a **Logistic Regression** model using `scikit-learn`
+- Evaluated using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+- Saved trained model as `model.pkl` using `joblib`
+  
 ### 5. Deployment
 
 Finally, I built the Streamlit web app that loads the trained model and allows users to enter transaction details. The app processes the input and quickly predicts if the transaction is fraudulent, making it easy to use without needing any programming skills.
-
+- Built a Streamlit app (`app.py`) that:
+  - Accepts user inputs
+  - Loads the trained model (`model.pkl`)
+  - Displays fraud prediction results
 ---
-In this project, I used Logistic Regression as the primary algorithm to detect fraudulent transactions. Logistic Regression is a simple yet powerful classification technique that estimates the probability of a binary outcome—in this case, whether a transaction is fraudulent (1) or not (0). It is particularly effective for problems involving clear patterns in the data. I enhanced the model’s performance by applying preprocessing steps such as feature scaling and categorical encoding, all organized within a pipeline to ensure a clean and efficient workflow. The model achieved an impressive accuracy of 95%, demonstrating that Logistic Regression, when combined with proper data preparation and class balancing techniques, is highly effective in identifying fraudulent activities with precision and reliability.
+### 📈 Model Performance
+The Logistic Regression model performed reasonably well given the baseline nature of the algorithm and class balancing applied. While simple, this approach offers good interpretability and sets a foundation for more complex fraud detection systems.
+In this project, I used Logistic Regression as the primary algorithm to detect fraudulent transactions. Logistic Regression is a simple yet powerful classification technique that estimates the probability of a binary outcome in this case, whether a transaction is fraudulent (1) or not (0). It is particularly effective for problems involving clear patterns in the data. I enhanced the model’s performance by applying preprocessing steps such as feature scaling and categorical encoding, all organized within a pipeline to ensure a clean and efficient workflow. The model achieved an impressive accuracy of 95%, demonstrating that Logistic Regression, when combined with proper data preparation and class balancing techniques, is highly effective in identifying fraudulent activities with precision and reliability.
 
 ## 🛠️ How to Use
 
