@@ -7,6 +7,12 @@ Financial fraud is a critical challenge in today's digital economy, where online
 The objective of this project is to build a **machine learning model** capable of predicting fraudulent transactions with high accuracy and deploy it through an interactive **Streamlit** application.
 
 ---
+## 🌐 Streamlit App Preview
+
+Below is a preview of the deployed app interface:
+
+![Fraud Detection UI]("D:\BODY\New_Projects\Fraud_Detection\Fraud_Detection_System_UI.png")
+
 
 ## 📊 Dataset
 
