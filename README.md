@@ -14,7 +14,7 @@ The objective of this project is to build a **machine learning model** capable o
 
 Below is a preview of the deployed app interface:
 
-![App UI_Screenshot](Fraud_Detection_System_UI.png)
+![App UI_Screenshot](images/Fraud_Detection_System_UI.png)
 
 
 
