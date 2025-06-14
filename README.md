@@ -1,5 +1,8 @@
 # 🛡️ Fraud Detection Using Machine Learning
-<img src="https://images.unsplash.com/photo-1708423538640-c079fd23c2ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fraud Detection Image" width="500" />
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1708423538640-c079fd23c2ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fraud Detection Image" width="500" />
+</p>
+
 
 
 
