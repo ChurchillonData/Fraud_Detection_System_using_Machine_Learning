@@ -16,7 +16,8 @@ Below is a preview of the deployed app interface:
 
 ## 📊 Dataset
 
-- **Source:** [Kaggle -Fraud Detection Dataset][([[https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud]](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download&select=AIML+Dataset.csv)
+- **Source:** [Kaggle - Fraud Detection Dataset by Aman Ali Siddiqui](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset)
+resource=download&select=AIML+Dataset.csv)
 - **Description:**  
   The dataset contains transactions made by European cardholders in September 2013. It includes 284,807 transactions, of which only 492 are fraud cases. Each transaction is described by 30 features:
   - `Time` and `Amount`
