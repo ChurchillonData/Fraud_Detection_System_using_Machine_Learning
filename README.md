@@ -14,7 +14,7 @@ The goal of this project is to create a computer program using machine learning,
 
 ---
 
-## 🌐 Streamlit App Preview
+## 🌐 Streamlit App Preview  [View App](https://frauddetectionsystemusingmachinelearning-mf4hwwwvlxyqfb6em2qda.streamlit.app/)
 
 To make it easy for users to interact with the fraud detection program, I built a simple web application using Streamlit. This app provides a user-friendly interface where anyone can enter transaction details and instantly get a prediction on whether the transaction is likely safe or fraudulent.
 
